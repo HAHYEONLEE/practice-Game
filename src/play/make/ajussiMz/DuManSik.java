@@ -23,10 +23,7 @@ public class DuManSik implements Ajussi {
 
     @Override
     public void ment() {
-        if (true) {
             System.out.println(introduce() + "나 만식쓰" + AGE + "세여~! 그.. MZ력이 " + this.mzPower
                     + "인디! 핸대폰은 전화 걸고 받는거만 할 줄 알믄 되는거 아녀?!");
         }
     }
-
-}

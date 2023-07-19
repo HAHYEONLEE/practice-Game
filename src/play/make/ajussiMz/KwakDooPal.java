@@ -1,15 +1,14 @@
 package play.make.ajussiMz;
 
-public class MaChunDong implements Ajussi{
-
-    private static final String NAME = "마춘동";
-    private static final int AGE = 58;
+public class KwakDooPal implements Ajussi{
+    private static final String NAME = "곽두팔";
+    private static final int AGE = 55;
     public int mzPower;
 
-    public MaChunDong() {
+    public KwakDooPal() {
     }
 
-    public MaChunDong(int mzPower) {
+    public KwakDooPal(int mzPower) {
         this.mzPower = mzPower;
     }
 
@@ -24,10 +23,9 @@ public class MaChunDong implements Ajussi{
     @Override
     public void ment() {
         if (true) {
-            System.out.println(introduce() + "나 춘동쓰" + AGE + "세 인디! MZ력은 " + this.mzPower
-                    + "이여! 요즘 신세대들은 아이폰 쓴다해서 하나 장만 해봤는디 어뗘!");
+            System.out.println(introduce() + "나 두팔쓰" + AGE + "세! MZ력 무려 " + this.mzPower
+                    + "! 다들 좋댓구알은 아는가??? 요즘 유우행하는 말인디!");
         }
     }
-
-
 }
+

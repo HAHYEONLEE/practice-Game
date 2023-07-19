@@ -8,7 +8,7 @@ public interface Ajussi {
 
 
     /* 멘트 */
-    void ment();
+   void ment();
 
     /*
     곽두팔 : 나 두팔쓰 55세! MZ력 무려 40! 다들 좋댓구알은 아는가??? 요즘 유우행하는 말인디!
