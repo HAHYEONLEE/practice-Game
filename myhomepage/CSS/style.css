@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+@media (prefers-reduced-motion:no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1920px;
+}
+
+
+div {
+    display: block;
+}
+
+
+/* 헤더(로고, 메뉴) */
+.Header {
+    width: 1920px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: transparent;
+}
+
+.Header-logo {
+    width: 90px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+
+/* .Header-changeColor {
+    width: 1920px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 1px 0.3rem hsla(0,0%,80%,.8);
+} */
+
+.navigation{
+    display: flex;
+    list-style-type: none;
+    font-size : 1.3rem;
+    margin-top: 25px;
+    margin-right: 150px;
+    float: right;
+}
+
+.navigation li {
+    line-height: normal;
+    font-family: Noto Sans KR,sans-serif;
+    font-size: 1.3rem;
+    margin-left : 90px;
+    cursor: pointer;
+}
+
+.navigation a {
+    text-decoration: none;
+    color : rgb(26, 25, 67);
+}
+
+.navigation a:hover {
+    color : rgb(131, 33, 146);
+}
+
+
+
+/* 첫 메인 페이지 */
+
+.Main {
+    background-image: url("../image/main-image.png");
+    /* min-width: 100vh; */
+    width: 1920px;
+    height: 600px;
+    flex-shrink: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+}
+
+.Main-content {
+        box-sizing: border-box;
+        padding: 11rem 0 4rem;
+        text-align: center;  
+}
+
+.Main-title {
+    color : rgb(38, 37, 74);
+    font-family: Black Han Sans,sans-serif;
+    font-size: 4rem;
+}
+
+.title-divider {
+    width: 3.25rem;
+    height: 0;
+    margin: 1.5rem auto;
+    border: none;
+    border-top: 0.3rem solid #f4623a;
+    opacity: 1;
+}
+
+.title-description {
+    margin: 0 auto;
+    font-size: 2rem;
+    color : rgb(69, 68, 94);
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* 각 섹션 제목들 */
+.section-title {
+    display: table;
+    position: relative;
+    margin: 0 auto 3rem;
+    color: #000;
+    border-bottom-color: #ccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+
+
+/* about me */
+.Aboutme {
+    display: flex;
+    width: 1920px;
+    height: 470px;
+    flex-shrink: 0;
+}
+
+/* 정보란 */
+.Aboutme-content {
+    box-sizing: border-box;
+    padding-top: 4rem;
+}
+
+/* 소개 관련 */
+.Aboutme-icon {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.Aboutme-icon img {
+    width: auto;
+    height: 55px;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    color: #464646;
+}
+
+.Aboutme-label {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #464646;
+    line-height: 1.5;
+
+}
+
+.value {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #464646;
+}
+
+/* 정보들 */
+.Aboutme-info {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    padding: 0 300px;
+}
+
+.Aboutme-info-name {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3333%;
+    padding-left: 50px;
+}
+
+.Aboutme-info-birth {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3333%;
+    padding-left: 50px;
+}
+
+.Aboutme-info-adress {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3333%;
+    padding-left: 60px;
+}
+
+.Aboutme-info-call {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3333%;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.Aboutme-info-mail {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3333%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.Aboutme-info-graduate {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3333%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+
+/* skills */
+.Skills {
+    display: flex;
+    background-color: black;
+    width: 1920px;
+    height: 1408px;
+    flex-shrink: 0;
+}
+
+.Skills-content {
+    padding-top: 4rem;
+    width: 100%;
+
+
+
+}
+
+/* project */
+.Project{
+    display: flex;
+    background-color: #E0D03B;
+    width: 1920px;
+    height: 1408px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.Project-content {
+    padding-top: 4rem;
+}
+
+/* footer */
+.Footer {
+    display: flex;
+    width: 1920px;
+    justify-content: flex-end;
+    background-color: #222;
+}
+/* 위로가기 로고 */
+.up-logo {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    cursor: pointer;
+    opacity: .5;
+    vertical-align: middle;
+}
+
+.not1{
+    width: 1920;
+    height: 50px;
+}
+.not2{
+    background-color: white;
+    width: 1920px;
+    height: 80px;
+}
+.not3{
+    background-color: black;
+    width: 1920px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
