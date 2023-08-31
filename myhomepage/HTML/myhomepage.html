@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hahyeon's page</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://unpkg.com/ress/dist/ress.min.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@900&display=swap');
+    </style>
+
+</head>
+
+<body> <!-- 전체 페이지 -->
+    <div id="All" class="homepage">
+        <!-- 첫 메인 페이지 -->
+        <div class="Main">
+            <!-- 헤더(로고, 메뉴) -->
+            <header class="Header">
+                <div class="logo">
+                    <img class="Header-logo" src="../image/header-aboutme/로고.png">
+                </div>
+                <!-- 각 페이지로 갈 수 있는 네비게이션 메뉴 -->
+                <div class="nav">
+                    <ul class="navigation">
+                        <li><a href="#not1">About me</a></li>
+                        <li><a href="#not2">Skills</a></li>
+                        <li><a href="#not3">Projects</a></li>
+                    </ul>
+                </div>
+            </header>
+            <!-- 메인 화면 -->
+            <div class="Main-content">
+                <div class="Main-title">
+                    안녕하세요!
+                    <br>
+                    백엔드 개발자 이하현 입니다!
+                    <hr class="title-divider">
+                    <div class="title-description">
+                        슬픈 눈망울의 사슴을
+                        <br>
+                        백두산 호랭이가 물었습니다. 앙!
+                        <br>
+                        메롱메롱스튜 우럭스무디 붕어빵초밥 앙버터김치찜 
+                    </div>
+                    <!-- 헤더가 멈출 때 다음 페이지 상단을 가리지 않게 하기 위한 임의 클래스 -->
+                    <article class="not1" id="not1"></article>
+                </div>
+            </div>
+        </div>
+        <!-- about me 페이지 -->
+        <article class="Aboutme" id="Aboutme">
+            <div class="Aboutme-content">
+                <div class="section-title" style="color: black;border-bottom-color: #ccc;">ABOUT ME</div>
+                <div class="Aboutme-info">
+                    <div class="Aboutme-info-name">
+                        <div class="Aboutme-icon name">
+                            <img src="../image/header-aboutme/name.png">
+                        </div>
+                        <div class="Aboutme-label">이름<br><span class="value">이하현</span></div>
+                    </div>
+                    <div class="Aboutme-info-birth">
+                        <div class="Aboutme-icon birth">
+                            <img src="../image/header-aboutme/birth.png">
+                        </div>
+                        <div class="Aboutme-label">생년월일<br><span class="value">92.08.19</span></div>
+                    </div>
+                    <div class="Aboutme-info-adress">
+                        <div class="Aboutme-icon adress">
+                            <img src="../image/header-aboutme/adress.png">
+                        </div>
+                        <div class="Aboutme-label">주소지<br><span class="value">서울특별시 강북구</span></div>
+                    </div>
+                    <div class="Aboutme-info-call">
+                        <div class="Aboutme-icon call">
+                            <img src="../image/header-aboutme/call.png">
+                        </div>
+                        <div class="Aboutme-label">연락처<br><span class="value">010-8820-6156</span></div>
+                    </div>
+                    <div class="Aboutme-info-mail">
+                        <div class="Aboutme-icon mail">
+                            <img src="../image/header-aboutme/mail.png">
+                        </div>
+                        <div class="Aboutme-label">이메일<br><span class="value"><a href="mailto:adr1025@naver.com">adr1025@naver.com</a></span></div>
+                    </div>
+                    <div class="Aboutme-info-graduate">
+                        <div class="Aboutme-icon graduate">
+                            <img src="../image/header-aboutme/graduate.png">
+                        </div>
+                        <div class="Aboutme-label">학력<br><span class="value">어려운대(어떡할과)</span></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- 헤더가 멈출 때 다음 페이지 상단을 가리지 않게 하기 위한 임의 클래스 -->
+
+        <article class="not2" id="not2"></article>
+        <!-- Skills 페이지 -->
+        <article class="Skills" id="skills">
+            <div class="Skills-content">
+                <div class="section-title" style="color:white;border-color:#6c757d;">SKILLS</div>
+                <div class=Skills-tech-container>
+                    <div class="back">
+                        <div class="Skills-title">Backend</div>
+                        <img class="Skills-img-back" src="../image/skills/backend.png">
+                    </div>
+                    <div class="front">
+                        <div class="Skills-title">Frontend</div>
+                        <img class="Skills-img-front" src="../image/skills/frontend.png">
+                    </div>
+                    <div class="deployment">
+                        <div class="deployment-deployment">
+                            <div class="Skills-title">Deployment</div>
+                            <img class="Skills-img-deployment" src="../image/skills/deployment.png">
+                        </div>
+                        <div class="version-control">
+                            <div class="Skills-title">Version-control</div>
+                            <img class="Skills-img-version-control" src="../image/skills/version-control.png">
+                        </div>
+                        <div class="communication">
+                            <div class="Skills-title">Commuication</div>
+                            <img class="Skills-img-communication" src="../image/skills/communication.png">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </article>
+        <!-- 헤더가 멈출 때 다음 페이지 상단을 가리지 않게 하기 위한 임의 클래스 -->
+        <article class="not3" id="not3"></article>
+    
+        <!-- Project 페이지 -->
+        <article class="Project" id="project">
+            <div class="Project-content">
+                <div class="section-title" style="color: black;border-bottom-color: #474747;">PROJECT</div>
+                <div class="Project-container">
+                    <div class="app">
+                        <img class="app-img" src="../image/project/app.png">
+                    </div>
+                    <div class="app-explain">
+                        <div class="app-explain-text">
+                        운동 선생님들의 <br>
+                        회원 스케줄 관리,<br>
+                        개인 매출 관리,<br>
+                        예상 월급 계산 등을<br>
+                        편하게 할 수 있음                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+
+        <!-- 페이지 상단으로 올라갈 수 있는 버튼 생성 및 JS code -->
+        <div class="PageupButton">
+            <img class="up-logo" src="../image/footer/up.png">
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const topBtn = document.querySelector(".up-logo");
+
+                topBtn.onclick = () => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                };
+            });
+        </script>
+        <!-- Footer 페이지 -->
+        <footer class="Footer" id="Footer">
+            <div class="Footer-icon">
+                <div class="Footer-icon-insta">
+                    <a href="https://www.instagram.com/ha__hyeon_/">
+                        <img src="../image/footer/instagram.png">
+                    </a>
+                </div>
+                <div class="Footer-icon-tistory">
+                    <a href="https://hahyeon2.tistory.com/">
+                        <img src="../image/footer/tistory.png">
+                    </a>
+                </div>
+                <div class="Footer-icon-notion">
+                    <a href="https://www.notion.so/hahyeon/c9721194fa26412e87dc1b76841e5f42">
+                        <img src="../image/footer/notion.png">
+                    </a>
+                </div>
+                <div class="Footer-icon-github">
+                    <a href="https://github.com/HAHYEONLEE">
+                        <img src="../image/footer/git-hub.png">
+                    </a>
+                </div>
+            </div>
+            <div class="Footer-copyright">© 2023. Lee Ha Hyeon. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+</html>
